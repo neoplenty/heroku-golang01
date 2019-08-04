@@ -13,7 +13,7 @@ func main() {
 	var charge int32
 	var discharge int32
 
-	db, err := sql.Open("mysql", "admin:Neoplenty1226@tcp(mysql01.ckb1owlkbaxs.ap-northeast-1.rds.amazonaws.com:3306)/mysql")
+	db, err := sql.Open("mysql", "admin:scott@tcp(mysql01.ckb1owlkbaxs.ap-northeast-1.rds.amazonaws.com:3306)/mysql")
 	if err != nil {
 		panic(err.Error())
 	} else {
